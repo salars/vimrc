@@ -12,7 +12,9 @@ set sw=4
 set ai
 set expandtab
 
-colo  monokai
+let g:Powerline_symbols='fancy'
+"colo  BusyBee
+colo  molokai
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -54,8 +56,9 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'mxw/vim-jsx'
 
+"set guifont=Inconsolata\ for\ Powerline:h15
 set guifont=Inconsolata\ for\ Powerline:h15
-let g:Powerline_symbols='fancy'
+"let g:Powerline_symbols = 'fancy'
 set termencoding=utf-8
 set fillchars+=stl:\ ,stlnc:\
 set term=xterm-256color

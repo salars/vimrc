@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/salars/bin'
+let g:netrw_dirhist_2='/Users/salars/workspace/gitlab-lt7/.git'
+let g:netrw_dirhist_3='/Users/salars/workspace/wb-lt7/app/containers/App'
+let g:netrw_dirhist_4='/Users/salars/workspace/demo/client/components/App'
